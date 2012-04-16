@@ -1,0 +1,53 @@
+
+body
+{
+	background: #ffffff url('sudoku.png') repeat;
+}
+
+td.boardCellGroupA
+{
+    background-color: #b0c4de;
+}
+td.boardCellGroupB
+{
+    background-color: #ffffff;
+}
+
+td.boardCellGroupA td.boardCell
+{
+    width: 44px;
+    height: 44px;
+    border: 1px solid #b0c4de;
+    background-color: #DA0603;
+}
+
+td.boardCellGroupB td.boardCell
+{
+    width: 44px;
+    height: 44px;
+    border: 1px solid #D40703;
+    background-color: #C40502;
+}
+.editValue
+{
+    width: 42px;
+    height: 42px;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid #778899;
+}
+.editValue input
+{
+    font-family: Segoe UI, Arial;
+    font-size: 30px;
+    color: #000000;
+    width: 44px;
+    /*height: 44px;*/
+    padding: 0px;
+    border: 0px;
+    background: none !important;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    left: -1px;
+}
